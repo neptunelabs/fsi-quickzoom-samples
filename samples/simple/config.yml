@@ -1,0 +1,11 @@
+title: Simple QuickZoom
+image: logo.png
+description: Simple QuickZoom demonstration
+priority: 1
+jsfiddle:
+  mapping:
+    html: "index.html"
+    css: "simple.css"
+    js: "simple.js"
+  resources:
+    - "{{{fsi.server}}}/{{{fsi.context}}}/{{{fsi.viewer}}}/applications/quickzoom/js/fsiquickzoom.js"
