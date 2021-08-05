@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link rel="stylesheet" href='simple.css' type="text/css"/>
-  <script src='simple.js'></script>
+  <script src='simple.js' defer></script>
   <script src='{{{fsi.server}}}/{{{fsi.context}}}/{{{fsi.viewer}}}/applications/quickzoom/js/fsiquickzoom.js'></script>
+  <script src='{{{fsi.server}}}/{{{fsi.context}}}/{{{fsi.viewer}}}/applications/touchzoom/js/fsitouchzoom.js'></script>
 </head>
 <body>
 <div class="container">
@@ -15,24 +16,10 @@
     <h1 class="text">NeptuneLabs QuickZoom</h1>
     <p class="text">Hover over the images to see QuickZoom in action!</p>
     <div class="image-container" align="center">
-      <div class="image">
-        <fsi-quickzoom style="display:none"
-                       inPlaceZoom="true"
-                       magnification="2.5"
-                       enableByCSSClass="inplace"
-                       disableByCSSClass="fly"
-        ></fsi-quickzoom>
-        <img class="inplace" src="//fsi-site-origin.neptunelabs.com/fsi/server?type=image&source=images/samples/showcase/handbags/WH-88001.tif&width=480" width="480" alt=""><br />
+      <div class="image" id="qzcontainer2">
         In Place Zoom
       </div>
-      <div class="image">
-        <fsi-quickzoom style="display:none"
-                       inPlaceZoom="false"
-                       magnification="2.5"
-                       enableByCSSClass="fly"
-                       disableByCSSClass="inplace"
-        ></fsi-quickzoom>
-        <img class="fly" src="//fsi-site-origin.neptunelabs.com/fsi/server?type=image&source=images/samples/showcase/handbags/WH-88001.tif&width=480" width="480" alt=""><br />
+      <div class="image" id="qzcontainer1">
         Fly-Out Zoom
       </div>
     </div>
