@@ -11,17 +11,20 @@
   <script src='{{{fsi.server}}}/{{{fsi.context}}}/{{{fsi.viewer}}}/applications/touchzoom/js/fsitouchzoom.js'></script>
 </head>
 <body>
+<fsi-quickzoom style="display:none"
+               inPlaceZoom="true"
+               magnification="2.5"
+               debug="true"
+></fsi-quickzoom>
+
 <div class="container">
   <div class="comparison">
     <h1 class="text">NeptuneLabs QuickZoom</h1>
     <p class="text">Hover over the images to see QuickZoom in action!</p>
     <div class="image-container" align="center">
-      <div class="image" id="qzcontainer2">
+        <img src="//fsi-site.neptunelabs.com/fsi/server?type=image&amp;source=images%2Fsamples%2Fshowcase%2Fhandbags%2F8082-2_1.tif&amp;width=400&amp;height=400" height="400" width="400" class="hasipz" alt="handbag" style="touch-action: pinch-zoom;">
+       <br/>
         In Place Zoom
-      </div>
-      <div class="image" id="qzcontainer1">
-        Fly-Out Zoom
-      </div>
     </div>
   </div>
 </div>
