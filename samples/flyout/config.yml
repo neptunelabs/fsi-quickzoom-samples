@@ -1,12 +1,12 @@
-title: In Place Zoom
+title: Fly Out Zoom
 image: logo.png
-description: Shows how a product detail page could look with in place zoom used.
-priority: 1
+description: Shows how a product detail page could look with hover zoom used.
+priority: 2
 jsfiddle:
   mapping:
     html: "index.html"
-    css: "pdp.css"
-    js: "pdp.js"
+    css: "flyout.css"
+    js: "flyout.js"
   resources:
     - "{{{fsi.server}}}/{{{fsi.context}}}/{{{fsi.viewer}}}/applications/touchzoom/js/fsitouchzoom.js"
     - https://cdn.jsdelivr.net/npm/bootstrap@{{dependencies.bootstrap}}/dist/css/bootstrap.min.css
