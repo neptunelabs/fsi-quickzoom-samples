@@ -11,6 +11,23 @@
   cursor: pointer;
 }
 
+div.FSIQuickZoom {
+  border:1px solid #a7a7a7!important;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.25);
+  animation-name: QuickZoomFadeIn;
+  animation-duration: 0.5s;
+}
+
+@keyframes QuickZoomFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .zoom
 {
   cursor: crosshair;
