@@ -19,7 +19,7 @@ There are several possibilities to upload images into the interface.
 
 # Set zoom in the Web Interface
 
-While having an image or folder selected, you can see all possible publishing ways for the specific item by visting the Publish To Web tab.
+While having an image or folder selected, you can see all possible publishing ways for the specific item by visiting the "Publish To Web" tab.
 For this example, select one image and use the preset *Image, fly out zoom on mouse over* in the section *Image, responsive* :
 
 ![Config Image](readme-flyout-1.png)
@@ -45,8 +45,7 @@ For all parameters which can be used, please consult the [manual](https://docs.n
 
 # Adding images & zoom to the website
 
-In order to display zoom with FSI QuickZoom, you only need to add the corresponding script you see in the **Required Scripts** section to
-to the head of your website:
+In order to display zoom with FSI QuickZoom, you only need to add the corresponding script you see in the **Required Scripts** section to the head of your website:
 
 ```html
 <script
