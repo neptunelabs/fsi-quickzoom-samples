@@ -6,13 +6,11 @@
   max-width: 960px;
 }
 
-.thumbnail
-{
+.thumbnail {
   cursor: pointer;
 }
 
-.zoom
-{
+.zoom {
   cursor: crosshair;
 }
 
@@ -28,12 +26,14 @@
   backdrop-filter: saturate(180%) blur(20px);
   color: #fff;
 }
+
 .site-header a {
   color: #fff;
   padding: 10px;
   transition: color .15s ease-in-out;
   text-decoration: none;
 }
+
 .site-header a:hover {
   color: #fff;
   background-color: #91B595;
@@ -42,17 +42,17 @@
 }
 
 .btn-outline-secondary {
-  color: #000!important;
-  border-color: #000!important;
+  color: #000 !important;
+  border-color: #000 !important;
 }
 
 .btn-outline-secondary:hover {
-  color: #fff!important;
-  border-color: #fff!important;
-  background-color: #91B595!important;
+  color: #fff !important;
+  border-color: #fff !important;
+  background-color: #91B595 !important;
 }
 
-.credit{
+.credit {
   font-size: x-small;
   color: #666666;
   text-align: left;
@@ -70,7 +70,6 @@
   text-align: left;
 }
 
-
 .product-text {
   font-size: 0.8rem;
 }
@@ -83,6 +82,7 @@
 .flex-equal > * {
   flex: 1;
 }
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;

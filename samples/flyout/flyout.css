@@ -6,15 +6,14 @@
   max-width: 960px;
 }
 
-.thumbnail
-{
+.thumbnail {
   cursor: pointer;
 }
 
 div.FSIQuickZoom {
-  border:1px solid #a7a7a7!important;
+  border: 1px solid #a7a7a7 !important;
   background-color: white;
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.25);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
   animation-name: QuickZoomFadeIn;
   animation-duration: 0.5s;
 }
@@ -28,8 +27,7 @@ div.FSIQuickZoom {
   }
 }
 
-.zoom
-{
+.zoom {
   cursor: crosshair;
 }
 
@@ -45,12 +43,14 @@ div.FSIQuickZoom {
   backdrop-filter: saturate(180%) blur(20px);
   color: #fff;
 }
+
 .site-header a {
   color: #fff;
   padding: 10px;
   transition: color .15s ease-in-out;
   text-decoration: none;
 }
+
 .site-header a:hover {
   color: #fff;
   background-color: #91B595;
@@ -59,17 +59,17 @@ div.FSIQuickZoom {
 }
 
 .btn-outline-secondary {
-  color: #000!important;
-  border-color: #000!important;
+  color: #000 !important;
+  border-color: #000 !important;
 }
 
 .btn-outline-secondary:hover {
-  color: #fff!important;
-  border-color: #fff!important;
-  background-color: #91B595!important;
+  color: #fff !important;
+  border-color: #fff !important;
+  background-color: #91B595 !important;
 }
 
-.credit{
+.credit {
   font-size: x-small;
   color: #666666;
   text-align: left;
@@ -87,7 +87,6 @@ div.FSIQuickZoom {
   text-align: left;
 }
 
-
 .product-text {
   font-size: 0.8rem;
 }
@@ -100,6 +99,7 @@ div.FSIQuickZoom {
 .flex-equal > * {
   flex: 1;
 }
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;
