@@ -49,7 +49,7 @@ In order to display zoom with FSI QuickZoom, you only need to add the correspond
 
 ```html
 <script
-  src='https://fsi-site.neptunelabs.com/fsi/viewer/applications/quickzoom/js/fsiquickzoom.js'
+  src='https://docs.neptunelabs.com/fsi/viewer/applications/quickzoom/js/fsiquickzoom.js'
 </script>
 ```
 This ensures that FSI QuickZoom is loaded.
@@ -72,7 +72,7 @@ As aforementioned, inPlaceZoom needs to be set to false in order to achieve the 
 You can then add the image to your site by copying the content of the source code:
 
 ```html
- <img class="zoom" id="image" src="//fsi-site.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-o4s4AfTgOvg-unsplash.jpg&width=840" width="840" alt="">
+ <img class="zoom" id="image" src="//docs.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-o4s4AfTgOvg-unsplash.jpg&width=840" width="840" alt="">
 ```
 
 ## Enabling/ Disabling zoom by CSS class
