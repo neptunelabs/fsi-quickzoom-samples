@@ -3,50 +3,6 @@
 This readme describes how the product detail page sample with *In-Place Zoom* with *FSI QuickZoom* is achieved.
 The aim of the demo is to show how you can easily integrate zoom by just adding a custom tag.
 
-# Add your images/ assets to FSI Server
-
-First, you'll need to upload the images you want to use to FSI Server.
-You can install a [demo version](https://www.neptunelabs.com/get/) via Docker or use our [online demo server](https://demo.fsi-server.com/fsi/interface/) to try it out first.
-
-# Uploading images
-
-There are several possibilities to upload images into the interface.
-
-![Config Image](readme-pdp.png)
-
-- Choose the Upload tab, click the "Choose files" button to add files to upload to the list. The files will be uploaded to the current folder.
-- Drag & Drop files to the file view or the tree view
-
-# Set zoom in the Web Interface
-
-While having an image or folder selected, you can see all possible publishing ways for the specific item by visiting the "Publish To Web" tab.
-For this example, select one image and use the preset *Image, in place mouse-over zoom* in the section *Image, responsive* :
-
-![Config Image](readme-pdp-1.png)
-
-This publishes the image with a simple <img> tag and the custom <fsi-quickzoom> tag. Requires a single high resolution image.
-If you move the mouse over the image, the image is zoomed within the image container.
-
-![Config Image](readme-pdp-2.png)
-
-The *Source Code* section enables you to control the look of your image by setting the dimensions and format, as well as adding effects or crop options to it.
-
-You can set the output dimensions and format (auto automatically chooses the best format for the browser used, or you can set WEBP, JPEG, PNG or GIF).
-In this area you also can see the source code for your selected publishing option which you can edit and copy to publish the images.
-
-Here you also see the <fsi-quickzoom> tag which sets the parameters used for the zoom option.
-If you click on the tag, the bar on the right automatically switches to the tab *Parameters*, enabling you to customize the QuickZoom to your liking.
-
-![Config Image](readme-pdp-3.png)
-
-For our example, it's important to set the parameter **inPlaceZoom** to *true* (which is automatically done by selecting the corresponding preset, but it is important not to change it if you want to recreate the sample.)
-
-
-For all parameters which can be used, please consult the [manual](https://docs.neptunelabs.com/fsi-viewer/latest/fsi-quickzoom).
-
-
-# Adding images & zoom to the website
-
 In order to display zoom with FSI QuickZoom, you only need to add the corresponding script you see in the **Required Scripts** section to the head of your website:
 
 ```html
