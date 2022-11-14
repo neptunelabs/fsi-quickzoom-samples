@@ -1,20 +1,18 @@
 function changeImage(buttonID) {
-  let img;
-  let curImage = document.getElementById('image');
+  let img
+  let curImage = document.getElementById('image')
   switch (buttonID) {
-    case "0":
-      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-o4s4AfTgOvg-unsplash.jpg&width=840';
+    case '0':
+      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=840'
       break
-    case "1":
-      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-jSbBnR22cXc-unsplash.jpg&width=840&rect=0,0.29634,1,0.66709';
+    case '1':
+      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=840'
       break
-    case "2":
-      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-CZysNmnvEJg-unsplash.jpg&width=840';
+    case '2':
+      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=840'
       break
     default:
-      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/nathan-oakley-o4s4AfTgOvg-unsplash.jpg&width=840';
+      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=840'
   }
-  curImage.src = img;
+  curImage.src = img
 }
-
-
