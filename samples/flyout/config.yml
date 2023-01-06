@@ -1,15 +1,26 @@
-title: Fly Out Zoom
-image: logo.png
-description: Shows how a product detail page could look with hover zoom used.
-priority: 2
-jsfiddle:
+overview:
+  title: Fly Out Zoom
+  image: logo.png
+  description: Shows how a product detail page could look with hover zoom used.
+  order: 2
+sample:
+  template:
+    schema: framework-2023
+    components:
+      menu:
+        template: data/furniture-menu.yml
+      featured:
+        template: data/furniture-featured.yml
+      highlight: DEAL OF THE DAY
+      footer: true
+      fsi:
+        touchZoom: true
+        quickZoom: true
+      bootstrap:
+        icons: false
   mapping:
     html: "index.html"
     css: "flyout.css"
     js: "flyout.js"
-  resources:
-    - "{{{fsi.server}}}/{{{fsi.context}}}/{{{fsi.viewer}}}/applications/touchzoom/js/fsitouchzoom.js"
-    - https://cdn.jsdelivr.net/npm/bootstrap@{{dependencies.bootstrap}}/dist/css/bootstrap.min.css
-    - https://cdn.jsdelivr.net/npm/bootstrap@{{dependencies.bootstrap}}/dist/js/bootstrap.bundle.min.js
-    - https://cdn.jsdelivr.net/npm/bootstrap-icons@{{dependencies.bootstrapIcons}}/font/bootstrap-icons.css
-    - "{{{fsi.server}}}/{{{fsi.context}}}/{{{fsi.viewer}}}/applications/quickzoom/js/fsiquickzoom.js"
+jsfiddle:
+  deploy: true
