@@ -1,105 +1,120 @@
-<fsi-quickzoom style="display:none"
-               inPlaceZoom="false"
-               magnification="2.5"
-               enableByCSSClass="zoom"
-               zoomImageOffset="20"
-               autoZoomDimension="true"
-               unCropZoomedImage="true"
+<fsi-quickzoom
+  style="display: none"
+  inPlaceZoom="false"
+  magnification="2.5"
+  enableByCSSClass="zoom"
+  zoomImageOffset="20"
+  autoZoomDimension="true"
+  unCropZoomedImage="true"
 ></fsi-quickzoom>
 
 <div class="container">
   <div class="bg-light w-100 overflow-hidden">
-    <div class="row row-cols-1 row-cols-md-2 g-3 px-5 py-3">
-      <div class="col-sm-7" >
-        <img class="zoom" id="image" src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=640" width="640" alt="">
+    <div class="row row-cols-1 g-3 px-5 py-3">
+      <div class="col-sm-7">
+        <img
+          class="zoom"
+          id="image"
+          src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=640"
+          width="640"
+          alt=""
+        />
       </div>
-    </div>
-    <div class="col-5 sticky-top mx-auto">
-      <div class="p-3 text-left">
-        <h2 class="display-5">Harley</h2>
-        <p> Couch, Oak Effect</p>
-        <p>
-          <i class="bi bi-star-fill"></i>
-          <i class="bi bi-star-fill"></i>
-          <i class="bi bi-star-fill"></i>
-          <i class="bi bi-star-fill"></i>
-          <i class="bi bi-star-half"></i>
-          <small>(4664) Ratings</small>
-        </p>
-        <p>
-          Sturdy, classy and reliable.</p>
-        <p>
-          Guaranteed to make your living room look clean and comfy - plus it holds all the things you do not want to have out in the open.
-        </p>
-        <p>
-          <small>Dispatched in 4 working days</small>
-        </p>
-        <div class="row pb-3">
-          <div class="col-4">
-            <img class="thumbnail img-fluid" onclick="changeImage('0')" src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=150" width="150"
-                 srcset="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=150,
-{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=300 2x"
-                 alt="">
+      <div class="col-sm-5 sticky-top mx-auto">
+        <div class="p-3 text-left">
+          <h2 class="display-5">Harley</h2>
+          <p>Couch, Oak Effect</p>
+          <p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <small>(4664) Ratings</small>
+          </p>
+          <p>Sturdy, classy and reliable.</p>
+          <p>
+            Guaranteed to make your living room look clean and comfy - plus it holds all the things you do not want to
+            have out in the open.
+          </p>
+          <p>
+            <small>Dispatched in 4 working days</small>
+          </p>
+          <div class="row pb-3">
+            <div class="col-4">
+              <img
+                class="thumbnail img-fluid"
+                onclick="changeImage('0')"
+                src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=150"
+                width="150"
+                srcset="
+                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=150,
+                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=300 2x
+                "
+                alt=""
+              />
+            </div>
+            <div class="col-4">
+              <img
+                class="thumbnail img-fluid"
+                onclick="changeImage('1')"
+                src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=150"
+                width="150"
+                srcset="
+                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=150,
+                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=300 2x
+                "
+                alt=""
+              />
+            </div>
+            <div class="col-4">
+              <img
+                class="thumbnail img-fluid"
+                onclick="changeImage('2')"
+                src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=150"
+                width="150"
+                srcset="
+                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=150,
+                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=300 2x
+                "
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="btn-group py-3">
+            <button type="button" class="btn btn-lg btn-outline-secondary">Add to basket</button>
+          </div>
+          <p class="pt-3">Dimensions:</p>
 
+          <div class="row">
+            <div class="col-6 text-left">
+              <strong>Width (cm)</strong>
+            </div>
+            <div class="col-6 text-left">156</div>
           </div>
-          <div class="col-4" >
-            <img class="thumbnail img-fluid" onclick="changeImage('1')" src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=150" width="150"
-                 srcset="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=150,
-{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=300 2x"
-                 alt="">
-
+          <div class="row">
+            <div class="col-6 text-left">
+              <strong>Depth (cm)</strong>
+            </div>
+            <div class="col-6 text-left">45</div>
           </div>
-          <div class="col-4" >
-            <img class="thumbnail img-fluid" onclick="changeImage('2')" src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=150" width="150"
-                 srcset="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=150,
-{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=300 2x"
-                 alt="">
-
+          <div class="row">
+            <div class="col-6 text-left">
+              <strong>Drawers internal dimensions</strong>
+            </div>
+            <div class="col-6 text-left">13 x 44 x 38 cm</div>
           </div>
-        </div>
-        <div class="btn-group py-3">
-          <button type="button" class="btn btn-lg btn-outline-secondary">Add to basket</button>
-        </div>
-        <p  class="pt-3">
-          Dimensions:
-        <div class="row">
-          <div class="col-6 text-left">
-            <strong>Width (cm)</strong>
+          <div class="row">
+            <div class="col-6 text-left">
+              <strong>Leg height (cm)</strong>
+            </div>
+            <div class="col-6 text-left">17</div>
           </div>
-          <div class="col-6 text-left">
-            156
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 text-left ">
-            <strong>Depth (cm)</strong>
-          </div>
-          <div class="col-6 text-left">
-            45
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 text-left">
-            <strong>Drawers internal dimensions</strong>
-          </div>
-          <div class="col-6 text-left">
-            13 x 44 x 38 cm
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 text-left ">
-            <strong>Leg height (cm)</strong>
-          </div>
-          <div class="col-6 text-left">
-            17
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 text-left">
-            <strong>Weight (kg)</strong>
-          </div>
-          <div class="col-6 text-left">
-            50
+          <div class="row">
+            <div class="col-6 text-left">
+              <strong>Weight (kg)</strong>
+            </div>
+            <div class="col-6 text-left">50</div>
           </div>
         </div>
       </div>
