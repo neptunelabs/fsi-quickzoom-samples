@@ -5,10 +5,10 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/neptunelabs/fsi-layers-samples/blob/main/LICENSE)
 
 
-FSI QuickZoom is an HTML5 and Javascript based tool adding image zoom to desktop and mobile browser.
-When hovering over a single source image provided by FSI Server, the part of the image the cursor is currently pointing at will be displayed enlarged in a zoom window next to the original image.
+FSI QuickZoom is an HTML5 and Javascript based tool that adds image zoom to desktop and mobile browsers.
+By hovering over a single source image provided by FSI Server, the portion of the image where the cursor is currently located is magnified in a zoom window next to the original image.
 The real-time scaling capabilities of the image server are used to achieve pixel-perfect results.
-FSI QuickZoom can be created and controlled as a simple HTML tag and/or via JavaScript API.
+FSI QuickZoom can be created and controlled as a simple HTML tag and/or via the JavaScript API.
 
 This repository contains examples on how to use and build your own applications.
 
