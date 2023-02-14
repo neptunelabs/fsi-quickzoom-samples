@@ -2,6 +2,9 @@ overview:
   title: In Place Zoom
   image: logo.png
   description: Shows how a product detail page could look with in place zoom used.
+  facts:
+    - In place image zoom
+    - Enabling zoom by CSS class
   order: 1
 sample:
   template:

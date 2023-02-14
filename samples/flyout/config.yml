@@ -2,6 +2,9 @@ overview:
   title: Fly Out Zoom
   image: logo.png
   description: Shows how a product detail page could look with hover zoom used.
+  facts:
+    - Hover zoom
+    - Enabling zoom by CSS class
   order: 2
 sample:
   template:
