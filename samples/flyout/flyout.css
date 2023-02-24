@@ -1,5 +1,5 @@
 div.FSIQuickZoom {
-  border: 1px solid #a7a7a7 !important;
+  border: 2px solid #a7a7a7 !important;
   background-color: white;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
   animation-name: QuickZoomFadeIn;

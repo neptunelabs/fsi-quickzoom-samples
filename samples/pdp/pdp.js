@@ -12,7 +12,7 @@ function changeImage(buttonID) {
       img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=640'
       break
     default:
-      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=640'
+      img = '{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=640'
   }
   curImage.src = img
 }
