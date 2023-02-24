@@ -4,7 +4,7 @@ overview:
   description: Shows how a product detail page would look with hover zoom used.
   facts:
     - Hover zoom
-    - Enabling zoom by CSS class
+    - Enabling hover zoom by CSS class
   order: 2
 sample:
   template:
