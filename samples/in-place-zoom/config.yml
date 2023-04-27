@@ -1,11 +1,11 @@
 overview:
-  title: Fly Out Zoom
+  title: In Place Zoom
   image: logo.png
-  description: Shows how a product detail page would look with hover zoom used.
+  description: Shows how a product detail page would look with in place zoom used.
   facts:
-    - Hover zoom
-    - Enabling hover zoom by CSS class
-  order: 2
+    - In place image zoom
+    - Enabling zoom by CSS class
+  order: 1
 sample:
   template:
     schema: framework-2023
@@ -30,7 +30,7 @@ sample:
         icons: false
   mapping:
     html: "index.html"
-    css: "flyout.css"
-    js: "flyout.js"
+    css: "style.css"
+    js: "script.js"
 jsfiddle:
   deploy: true

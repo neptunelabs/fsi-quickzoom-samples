@@ -1,19 +1,21 @@
 <fsi-quickzoom
   style="display: none"
-  inPlaceZoom="true"
+  inPlaceZoom="false"
   magnification="2.5"
   enableByCSSClass="zoom"
+  zoomImageOffset="20"
   autoZoomDimension="true"
   unCropZoomedImage="false"
 ></fsi-quickzoom>
 
-<div class="container mx-auto">
+<div class="container">
+  <div class="bg-light">
     <div class="row row-cols-1 row-cols-lg-2 g-3 px-5 py-3">
       <div class="col">
         <img
           class="zoom img-fluid"
           id="image"
-          src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=640"
+          src="{{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=640"
           width="640"
           alt=""
         />
@@ -21,7 +23,7 @@
       <div class="col mx-auto">
         <div class="p-3 text-left">
           <h2 class="display-5">Harley</h2>
-          <p>Couch, Distressed Oak Effect</p>
+          <p>Couch, Oak Effect</p>
           <p>
             <i class="bi bi-star-fill"></i>
             <i class="bi bi-star-fill"></i>
@@ -43,11 +45,11 @@
               <img
                 class="thumbnail img-fluid"
                 onclick="changeImage('0')"
-                src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=150"
+                src="{{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=150"
                 width="150"
                 srcset="
-                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=150,
-                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=300 2x
+                  {{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=150,
+                  {{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=300 2x
                 "
                 alt=""
               />
@@ -56,11 +58,11 @@
               <img
                 class="thumbnail img-fluid"
                 onclick="changeImage('1')"
-                src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=150"
+                src="{{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=150"
                 width="150"
                 srcset="
-                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=150,
-                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=300 2x
+                  {{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=150,
+                  {{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979695.jpg&rect=0.14419,0,0.66719,1&width=300 2x
                 "
                 alt=""
               />
@@ -69,11 +71,11 @@
               <img
                 class="thumbnail img-fluid"
                 onclick="changeImage('2')"
-                src="{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=150"
+                src="{{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=150"
                 width="150"
                 srcset="
-                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=150,
-                  {{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=300 2x
+                  {{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=150,
+                  {{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/living-room-5979693.jpg&rect=0,0.24299,1,0.66706&width=300 2x
                 "
                 alt=""
               />
@@ -117,4 +119,5 @@
         </div>
       </div>
     </div>
+  </div>
 </div>
