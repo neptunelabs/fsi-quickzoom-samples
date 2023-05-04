@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta charset="UTF-8" />
+  <title>Your FSI Code</title>
+  <style>
+    html,
+    body {
+      font-family: Arial, sans-serif;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script src="{{&fsi.server}}/{{&fsi.context}}/{{&fsi.viewer}}/applications/quickzoom/js/fsiquickzoom.js"></script>
+</head>
+<body>
+<fsi-quickzoom style="display: none" inPlaceZoom="false" magnification="2.5"></fsi-quickzoom>
+
+<img
+  src="{{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/bag.tif&width=480"
+  width="480"
+  alt=""
+/>
+</body>
+</html>

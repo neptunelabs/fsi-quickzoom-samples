@@ -1,0 +1,36 @@
+overview:
+  title: Fly Out Zoom
+  image: logo.png
+  description: Shows how a product detail page would look with hover zoom used.
+  facts:
+    - Hover zoom
+    - Enabling hover zoom by CSS class
+  order: 2
+sample:
+  template:
+    schema: framework-2023
+    components:
+      menu:
+        template: data/furniture-menu.yml
+      featured:
+        template: data/furniture-featured.yml
+      highlight: DEAL OF THE DAY
+      footer:
+        credits:
+          photos:
+            author: various artists
+            link: https://pixabay.com/
+            platform: Pixabay
+          viewer:
+            link: https://www.neptunelabs.com/fsi-quickzoom/
+      fsi:
+        touchZoom: true
+        quickZoom: true
+      bootstrap:
+        icons: false
+  mapping:
+    html: "index.html"
+    css: "style.css"
+    js: "script.js"
+playground:
+  deploy: true
