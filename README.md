@@ -2,7 +2,7 @@
 | ***Pixel-perfect*** | ***High-DPI-ready*** | ***Fast :rocket:*** | ***Hackable*** | ***Consistent*** |
 |:-----------------:|:-------------:|:---------------:|:---------------:|:---------------:|
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/neptunelabs/fsi-layers-samples/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)][License]
 
 
 FSI QuickZoom is an HTML5 and Javascript based tool adding image zoom to desktop and mobile browser.
@@ -75,6 +75,7 @@ according to your FSI server URL.
 For further information on the FSI Viewer and FSI Server,
 please refer to the official [documentation][Docs].
 
+[License]: https://github.com/neptunelabs/fsi-quickzoom-samples/blob/main/LICENSE
 
 [Docs]: https://docs.neptunelabs.com/fsi-viewer/latest/fsi-quickzoom
 
