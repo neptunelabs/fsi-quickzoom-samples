@@ -7,7 +7,7 @@ To display zoom with FSI QuickZoom, all you need to do is add the appropriate sc
 
 ```html
 <script
-  src='https://docs.neptunelabs.com/fsi/viewer/applications/quickzoom/js/fsiquickzoom.js'
+  src='https://fsi.domain.tld/fsi/viewer/applications/quickzoom/js/fsiquickzoom.js'
 </script>
 ```
 
@@ -32,7 +32,7 @@ You can then add the image to your site by copying the contents of the source co
 <img
   class="zoom"
   id="image"
-  src="//docs.neptunelabs.com/fsi/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=640"
+  src="//fsi.domain.tld/fsi/server?type=image&source=images/samples/ssi/furniture/living-room-5979692.jpg&rect=0.14095,0.12033,0.54629,0.76519&width=640"
   width="640"
   alt=""
 />
