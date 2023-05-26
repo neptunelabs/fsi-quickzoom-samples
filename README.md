@@ -1,4 +1,4 @@
-# [FSI QuickZoom](https://www.neptunelabs.com) &middot; Samples
+# [FSI QuickZoom](https://www.neptunelabs.com/fsi-quickzoom/) &middot; [Samples][GHPages]
 | ***Pixel-perfect*** | ***High-DPI-ready*** | ***Fast :rocket:*** | ***Hackable*** | ***Consistent*** |
 |:-----------------:|:-------------:|:---------------:|:---------------:|:---------------:|
 
