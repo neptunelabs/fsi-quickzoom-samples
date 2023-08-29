@@ -77,7 +77,7 @@ please refer to the official [documentation][Docs].
 
 [License]: https://github.com/neptunelabs/fsi-quickzoom-samples/blob/main/LICENSE
 
-[Docs]: https://docs.neptunelabs.com/fsi-viewer/latest/fsi-quickzoom
+[Docs]: https://docs.neptunelabs.com/docs/fsi-quickzoom
 
 [Server]: https://www.neptunelabs.com/get/
 
