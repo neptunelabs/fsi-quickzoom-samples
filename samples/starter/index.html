@@ -18,12 +18,13 @@
   <script src="{{&fsi.server}}/{{&fsi.context}}/{{&fsi.viewer}}/applications/quickzoom/js/fsiquickzoom.js"></script>
 </head>
 <body>
-<fsi-quickzoom style="display: none" inPlaceZoom="false" magnification="2.5" debug="true" autoInit="true"></fsi-quickzoom>
+<fsi-quickzoom style="display: none" inPlaceZoom="false" magnification="2.5" debug="true" autoInit="true" enableByCSSClass="useQuickZoom"></fsi-quickzoom>
 
 <img
   src="{{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/bag.tif&width=480"
   width="480"
   alt=""
+  class="useQuickZoom"
 />
 </body>
 </html>
