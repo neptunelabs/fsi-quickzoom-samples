@@ -1,49 +1,49 @@
-# Product Detail Page - Using FSI TouchZoom & Single Source Imaging
+# JS API Sample
 
-This readme describes how the product Detail page sample with _FSI TouchZoom_ and _Single Source Imaging_ of _FSI Server_ is achieved.
-The aim of the demo is to show how you can easily integrate different sizes and formats of an image by simply changing the Image URL.
-It also shows how FSI TouchZoom is used.
+FSI QuickZoom contains an extensive JS API with methods and callbacks that you can use.
+You can find [an overview of all available parameters in the corresponding documentation](https://docs.neptunelabs.com/docs/fsi-quickzoom/js-api/public-methods).
 
-# Using TouchZoom
+This example is a simple demonstration of how to use these methods and callbacks.
 
-In order to display all images with TouchZoom, you only need to add the corresponding script
-to the head of your website:
+To display zoom with FSI QuickZoom, all you need to do is add the following script to the top of your web page:
 
 ```html
-<script src="https://fsi.domain.tld/fsi/viewer/applications/touchzoom/js/fsitouchzoom.js"></script>
+<script
+  src='https://fsi.domain.tld/fsi/viewer/applications/quickzoom/js/fsiquickzoom.js'
+</script>
 ```
+This will ensure that the FSI QuickZoom is loaded.
 
-In our example, this is done through the framework, but you can see that the script is loaded when the page is compiled.
+For this sample, we will only have static images at the beginning, as we only want to initalize QuickZoom in place of an image when a button is clicked.
+This means that the viewer is initialised by JavaScript.
 
-This ensures that FSI TouchZoom is loaded and all images will be displayed in the resolution matching the current magnification.
-This way, sharp images on mobile devices are guaranteed.
-You can also see this if you resize your browser window or change between different displays.
-
-# Enabling/ disabling FSI TouchZoom by using CSS classes
-
-You can also restrict FSI TouchZoom to certain images and enable or disable it via CSS class.
-Simply embed an FSI TouchZoom tag somewhere on the page:
+To do this, we have created this part in the body:
 
 ```html
-<fsi-touchzoom style="display:none" useDevicePixelRatio="true" enableByCSSClass="zoom"></fsi-touchzoom>
+ <div class="col productContainer" id="productContainer">
+  <img class="zoom" id="zoomImg" src="{{&fsi.server}}/{{&fsi.context}}/static/assets/samples/furniture/hepburn-big.jpg" width="600" height="600" alt="">
+  <button type="button" id="zoomBtn" class="btn btn-lg btn-outline-dark">Show Zoom</button>
+</div>
+```
+`productContainer` is the div that contains all the elements.
+`zoomImg` is the image that will be displayed on load and replaced by the viewer.
+The `zoomBtn` button is used to switch from the image to the viewer.
+
+In the corresponding `style.css` the button is placed above the image div with `z-index`:
+
+```css
+.productContainer .btn {
+  position: absolute;
+  z-index: 15;
+}
 ```
 
-In this example, TouchZoom will only be used for images with the class _zoom_.
+The switch on button click is achieved via JS in the corresponding `script.js`:
 
-```html
-<img
-  id="image"
-  class="zoom img-fluid"
-  src="https://fsi.domain.tld/fsi/server?type=image&source=images/samples/ssi/furniture/home-7531464.jpg&width=940"
-  width="940"
-  alt=""
-/>
+```js
+tbd
+
 ```
 
-You could also use _disableByCSSClass="noZoom"_ for example.
-
-For all parameters which can be used, please consult the [manual](https://docs.neptunelabs.com/fsi-viewer/latest/fsi-touchzoom).
-
-## Testing with examples from your own server
-
-To test the examples with images from your own [FSI Server](https://www.neptunelabs.com/fsi-server/), please first copy the env.yml.dist file to env.yml and adapt the file, then restart the main demo again.
+A click on the `zoomBtn` element will initialise a new FSI Viewer element in the `zoomImg` element.
+tbd
