@@ -12,14 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     addMyImagesToTheDom(); // add your images here
-    const instance = new $FSI.QuickZoom();
-    const success = instance.init(zoomImg, {
-      debug: true,
-      useDevicePixelRatio: true,
-      inPlaceZoom: true,
-      enableByCSSClass: 'useQuickZoom',
-    }, true);
-
+    const instance = $FSI.quickZoom.scanForNewImages()
     document.getElementById('zoomBtn').style.display = 'none'
 
     function addMyImagesToTheDom() {
