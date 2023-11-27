@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('zoomBtn').style.display = 'none'
 
     function addMyImagesToTheDom() {
-
       const ele = document.getElementById("zoomImg");
       ele.setAttribute("src", img);
       ele.classList.add('useQuickZoom')
