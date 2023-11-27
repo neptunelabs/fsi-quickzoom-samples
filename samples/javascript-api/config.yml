@@ -1,0 +1,35 @@
+overview:
+  title: JavaScript API
+  image: logo.png
+  description: Learn how to use the JavaScript QuickZoom API with a simple demo.
+  order: 3
+  facts:
+    - JS built FSI QuickZoom
+    - JS API Demonstration
+sample:
+  template:
+    schema: framework-2023
+    components:
+      menu:
+        template: data/furniture-menu.yml
+      highlight: DEAL OF THE DAY
+      featured:
+        template: data/furniture-featured.yml
+      footer:
+        credits:
+          photos:
+            author: various artists
+            link: https://pixabay.com/
+            platform: Pixabay
+          viewer:
+            link: https://www.neptunelabs.com/fsi-touchzoom/
+      fsi:
+        quickZoom: true
+      bootstrap:
+        icons: true
+  mapping:
+    html: "index.html"
+    js: "script.js"
+    css: "style.css"
+playground:
+  deploy: true
