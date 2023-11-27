@@ -13,19 +13,17 @@ document.addEventListener('DOMContentLoaded', () => {
       onReady: () => {
         // show FSI Viewer instance and hide image
         document.getElementById('zoomBtn').style.display = 'none'
-        document.getElementById('zoomImg').className = 'useQuickZoom'
       },
     }, false);
 
     function addMyImagesToTheDom() {
 
       const ele = document.getElementById("zoomImg");
-
       ele.setAttribute("src", "{{&fsi.server}}/{{&fsi.context}}/server?type=image&source=images/samples/ssi/furniture/home-7531464.jpg&width=600");
       ele.setAttribute("width", "600");
       ele.setAttribute("height", "600");
+     ele.classList.add('useQuickZoom')
     }
-
 
   })
 
