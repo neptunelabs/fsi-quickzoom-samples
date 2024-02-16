@@ -8,7 +8,7 @@ overview:
     - JS API Demonstration
 sample:
   template:
-    schema: framework-2023
+    schema: bootstrap-taupe
     components:
       menu:
         template: data/furniture-menu.yml
@@ -27,9 +27,3 @@ sample:
         quickZoom: true
       bootstrap:
         icons: true
-  mapping:
-    html: "index.html"
-    js: "script.js"
-    css: "style.css"
-playground:
-  deploy: true
