@@ -6,25 +6,23 @@ overview:
     - Hover zoom
     - Enabling hover zoom by CSS class
   order: 2
+schema: bootstrap-taupe
 sample:
-  template:
-    schema: bootstrap-taupe
-    components:
-      menu:
-        template: data/furniture-menu.yml
-      featured:
-        template: data/furniture-featured.yml
-      highlight: DEAL OF THE DAY
-      footer:
-        credits:
-          photos:
-            author: various artists
-            link: https://pixabay.com/
-            platform: Pixabay
-          viewer:
-            link: https://www.neptunelabs.com/fsi-quickzoom/
-      fsi:
-        touchZoom: true
-        quickZoom: true
-      bootstrap:
-        icons: false
+  menu:
+    data: furniture-menu.yml
+  featured:
+    data: furniture-featured.yml
+  highlight: DEAL OF THE DAY
+  footer:
+    credits:
+      photos:
+        author: various artists
+        link: https://pixabay.com/
+        platform: Pixabay
+      viewer:
+        link: https://www.neptunelabs.com/fsi-quickzoom/
+  fsi:
+    touchZoom: true
+    quickZoom: true
+  bootstrap:
+    icons: false

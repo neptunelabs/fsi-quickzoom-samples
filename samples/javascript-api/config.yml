@@ -6,24 +6,22 @@ overview:
   facts:
     - JS built FSI QuickZoom
     - JS API Demonstration
+schema: bootstrap-taupe
 sample:
-  template:
-    schema: bootstrap-taupe
-    components:
-      menu:
-        template: data/furniture-menu.yml
-      highlight: DEAL OF THE DAY
-      featured:
-        template: data/furniture-featured.yml
-      footer:
-        credits:
-          photos:
-            author: various artists
-            link: https://pixabay.com/
-            platform: Pixabay
-          viewer:
-            link: https://www.neptunelabs.com/fsi-touchzoom/
-      fsi:
-        quickZoom: true
-      bootstrap:
-        icons: true
+  menu:
+    data: furniture-menu.yml
+  highlight: DEAL OF THE DAY
+  featured:
+    data: furniture-featured.yml
+  footer:
+    credits:
+      photos:
+        author: various artists
+        link: https://pixabay.com/
+        platform: Pixabay
+      viewer:
+        link: https://www.neptunelabs.com/fsi-touchzoom/
+  fsi:
+    quickZoom: true
+  bootstrap:
+    icons: true
