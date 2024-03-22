@@ -1,0 +1,107 @@
+<fsi-quickzoom
+  style="display: none"
+  inPlaceZoom="true"
+  magnification="2.5"
+  enableByCSSClass="useQuickZoom"
+  autoZoomDimension="true"
+></fsi-quickzoom>
+<div class="container">
+  <div class="row row-cols-1 row-cols-lg-2 g-3 px-5 py-3">
+    <div class="col productContainer" id="productContainer">
+      <img class="zoom" id="zoomImg" src="{{&fsi.server}}/{{&fsi.context}}/static/assets/samples/furniture/hepburn-big.jpg" width="600" height="600" alt="">
+      <button type="button" id="zoomBtn" class="btn btn-lg btn-outline-dark">Show Zoom</button>
+    </div>
+    <div class="col mx-auto">
+      <div class="p-3 text-left">
+        <h2 class="display-5">Hepburn</h2>
+        <p>Kitchen Helper, Oak Wood, two colours</p>
+        <p>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <small>(4664) Ratings</small>
+        </p>
+        <p>Sturdy, classy and reliable.</p>
+        <p>
+          Guaranteed to make your kitchen look clean and holds all the things you do not want to have out in the
+          open.
+        </p>
+        <p>
+          <small>Dispatched in 4 working days</small>
+        </p>
+        <div class="row pb-3">
+          <div class="col-4">
+            <img
+              class="zoom thumbnail img-fluid"
+              onclick="changeImage('0')"
+              src="{{&fsi.server}}/{{&fsi.context}}/static/assets/samples/furniture/hepburn-small.jpg"
+              width="150"
+              alt=""
+            />
+          </div>
+          <div class="col-4">
+            <img
+              class="zoom thumbnail img-fluid"
+              onclick="changeImage('1')"
+              src="{{&fsi.server}}/{{&fsi.context}}/static/assets/samples/furniture/hepburn-small-1.jpg"
+              width="150"
+              alt=""
+            />
+          </div>
+          <div class="col-4">
+            <img
+              class="zoom thumbnail img-fluid"
+              onclick="changeImage('2')"
+              src="{{&fsi.server}}/{{&fsi.context}}/static/assets/samples/furniture/hepburn-small-2.jpg"
+              width="150"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="btn-group py-3">
+          <button type="button" class="btn btn-lg btn-outline-dark">Add to basket</button>
+        </div>
+        <p class="pt-3">Dimensions:</p>
+
+        <div class="row">
+          <div class="col-6 text-left">
+            <strong>Height (cm)</strong>
+          </div>
+          <div class="col-6 text-left">83</div>
+        </div>
+        <div class="row">
+          <div class="col-6 text-left">
+            <strong>Width (cm)</strong>
+          </div>
+          <div class="col-6 text-left">156</div>
+        </div>
+        <div class="row">
+          <div class="col-6 text-left">
+            <strong>Depth (cm)</strong>
+          </div>
+          <div class="col-6 text-left">45</div>
+        </div>
+        <div class="row">
+          <div class="col-6 text-left">
+            <strong>Drawers internal dimensions</strong>
+          </div>
+          <div class="col-6 text-left">13 x 44 x 38 cm</div>
+        </div>
+        <div class="row">
+          <div class="col-6 text-left">
+            <strong>Leg height (cm)</strong>
+          </div>
+          <div class="col-6 text-left">17</div>
+        </div>
+        <div class="row">
+          <div class="col-6 text-left">
+            <strong>Weight (kg)</strong>
+          </div>
+          <div class="col-6 text-left">50</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

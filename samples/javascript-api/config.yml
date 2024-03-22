@@ -1,18 +1,18 @@
 overview:
-  title: In Place Zoom
+  title: JavaScript API
   image: logo.png
-  description: Shows how a product detail page would look with in place zoom used.
+  description: Learn how to use the JavaScript QuickZoom API with a simple demo.
+  order: 3
   facts:
-    - In place image zoom
-    - Enabling zoom by CSS class
-  order: 1
+    - JS built FSI QuickZoom
+    - JS API Demonstration
 schema: bootstrap-taupe
 sample:
   menu:
     data: furniture-menu.yml
+  highlight: DEAL OF THE DAY
   featured:
     data: furniture-featured.yml
-  highlight: DEAL OF THE DAY
   footer:
     credits:
       photos:
@@ -20,9 +20,8 @@ sample:
         link: https://pixabay.com/
         platform: Pixabay
       viewer:
-        link: https://www.neptunelabs.com/fsi-quickzoom/
+        link: https://www.neptunelabs.com/fsi-touchzoom/
   fsi:
-    touchZoom: true
     quickZoom: true
   bootstrap:
-    icons: false
+    icons: true
